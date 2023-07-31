@@ -58,20 +58,17 @@ a:hover {
   }
   
   .main {
-	margin-left: 1rem;
+    // float: left;
+    margin-left: 1rem;
 	padding-right: 1rem;
 	width: calc(100% - 2rem)
   }
 
   .archive {
-	width: 100%;
+	  width: 100%;
   }
 
   header {
     margin-top: 1em;
-  }
-
-  section {
-    font-size: 1em;
   }
 }
