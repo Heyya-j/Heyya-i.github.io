@@ -1,4 +1,6 @@
 main:
+  - title: "Minimal"
+    url: "/minimal/"
   - title: "Home"
     url: "/"
   - title: "Archive"

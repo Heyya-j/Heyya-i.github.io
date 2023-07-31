@@ -1,6 +1,7 @@
 ---
+permalink: "/minimal/"
 title: Minimal
-date: 2023-07-31
+layout: minimal
 ---
 Minimal是一个正在开发的个人的Jekyll主题，这个主题追求极致的洁简而不失美观与高级感。该主题仍在开发中，部分界面仍不是很美观，将在后续进行优化。你可用通过修改配置config文件来更改主题颜色。
 
@@ -71,7 +72,7 @@ bundle exec jekyll serve
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/Minimal. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Heyya-x/Minimal. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 

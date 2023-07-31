@@ -1,5 +1,5 @@
 ---
 permalink: /splash/
 title: "Splash"
-layout: splash
+layout: default
 ---
