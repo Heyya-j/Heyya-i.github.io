@@ -4,6 +4,8 @@ title: Heyya's memo
 # Build settings
 markdown: kramdown
 
+remote_theme: heyya-x/minimal
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -19,7 +21,6 @@ paginate_path: /page:num/
 
 include:
   - _pages
-
 
 # collections:
 #   splashs:
