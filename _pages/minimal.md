@@ -23,27 +23,52 @@ This allows for easier installation and updating as you don't have to manage any
 
 1. Add this line to your Jekyll site's `Gemfile`:
 
-```shell
-gem "minimal-jekyll"
-```
+	```shell
+	gem "minimal-jekyll"
+	```
 
 2. Fetch and update bundled gems by running the following command:
 
-```shell
-bundle
-```
+	```shell
+	bundle
+	```
 
 3. And add this line to your Jekyll site's `_config.yml`:
 
-```shell
-theme: minimal-jekyll
-```
+	```shell
+	theme: minimal-jekyll
+	```
 
 To update the theme run:
 
-```shell
-bundle update
-```
+	```shell
+	bundle update
+	```
+
+### Remote theme method
+
+To install:
+
+1. Create or replace the content of your Gemfile with the following:
+ 
+	```
+	source "https://rubygems.org"
+	
+	# If you have any plugins, put them here!
+	group :jekyll_plugins do
+	  gem "github-pages"
+	  gem "jekyll-include-cache"
+	  gem "webrick"
+	end
+	```
+
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+	```
+	bundle
+	```
+
+3. Add  `remote_theme: heyya-x/minmal` to your `_config.yml` file. And don't forget to remove any other `theme:` or `remote_theme: `.
 
 ## Usage
 
