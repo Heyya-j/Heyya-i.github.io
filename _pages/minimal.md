@@ -41,9 +41,9 @@ This allows for easier installation and updating as you don't have to manage any
 
 To update the theme run:
 
-	```shell
-	bundle update
-	```
+```shell
+bundle update
+```
 
 ### Remote theme method
 
@@ -97,7 +97,7 @@ bundle exec jekyll serve
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Heyya-x/Minimal. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/Heyya-x/Minimal](https://github.com/Heyya-x/Minimal). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
