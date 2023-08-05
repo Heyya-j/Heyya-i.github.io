@@ -139,3 +139,6 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
+### LaTeX
+$\LaTeX$
