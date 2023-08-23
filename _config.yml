@@ -23,6 +23,10 @@ paginate_path: /page:num/
 include:
   - _pages
 
+collections:
+  timelines:
+    output: true
+
 # collections:
 #   splashs:
 #     output: true
