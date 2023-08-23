@@ -5,5 +5,7 @@ main:
     url: "/"
   - title: "Archive"
     url: "/archive/"
+  - title: "Timeline"
+    url: "/timeline"
   - title: "About"
     url: "https://kaijunzhu.com"
